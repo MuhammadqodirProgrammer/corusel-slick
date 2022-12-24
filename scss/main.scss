@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.marketing{
+    padding: 50px 0;
+}
+h2{
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list li{
+    width: 397px !important;
+    border: 2px solid black;
+}
+
+.partnyor-list{
+    margin-top: 60px;
+}
+.marketing__colusel-mobile{
+    display: none;
+}
+@media screen and (max-width:991px) {
+    .marketing__colusel-mobile{
+        display: block;
+    }
+    .marketing__colusel{
+        display: none;
+    }
+}
